@@ -15,5 +15,6 @@ void poll(unsigned t) {
     button();
 }
 
-//avrdude -P /dev/ttyACM0 -c stk500v2 -p m324p
+//avrdude -P /dev/ttyACM0 -c stk500v2 -p m328p
 //avrdude -P /dev/ttyACM0 -c stk500v2 -p m328p -U flash:r:flash.bin:r
+//avrdude -P /dev/ttyACM0 -c stk500v2 -p m328p -U flash:w:optiboot_atmega328.hex

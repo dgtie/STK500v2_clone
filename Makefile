@@ -1,5 +1,5 @@
-PROG = /home/sylam/.platformio/packages/tool-pic32prog/pic32prog
-BIN = /home/sylam/.platformio/packages/toolchain-microchippic32/bin
+PROG = $(HOME)/.platformio/packages/tool-pic32prog/pic32prog
+BIN = $(HOME)/.platformio/packages/toolchain-microchippic32/bin
 GPP = $(BIN)/pic32-g++
 BIN2HEX = $(BIN)/pic32-bin2hex
 SIZE = $(BIN)/pic32-size

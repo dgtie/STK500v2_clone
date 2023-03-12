@@ -33,7 +33,7 @@ void poll(unsigned), button_changed(int);
 #pragma config UPLLIDIV =   DIV_2
 
 /*** DEVCFG3 ***/
-#pragma config FVBUSONIO =  ON
+#pragma config FVBUSONIO =  OFF
 #pragma config USERID =     0xFFFF
 // another chipkit compiler bug here in USERID
 #pragma config PMDL1WAY =   OFF

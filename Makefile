@@ -8,7 +8,7 @@ SRC = $(shell ls -r src/*.cpp)
 OBJ = $(SRC:.cpp=.o)
 TARGET = out
 
-CFLAGS = -mprocessor=32MX250F128D -Iinclude
+CFLAGS = -mprocessor=32MX250F128D -Iinclude -Os
 LDFLAGS = -mprocessor=32MX250F128D -Wl,-Map=$(TARGET).map
 
 all: $(TARGET).hex
